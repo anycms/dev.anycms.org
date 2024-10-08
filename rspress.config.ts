@@ -17,8 +17,16 @@ export default defineConfig({
     ],
     footer:{
       message:'&copy; 2024 Powered by <a href="https://anycms.org" target="_blank">AnyCMS.</a>',
-    }
+    },
+    prevPageText: '上一篇',
+    nextPageText: '下一篇',
+    outlineTitle: '目录',
+    searchPlaceholderText: '搜索',
+    searchNoResultsText: '未搜索到相关结果',
+    searchSuggestedQueryText: '可更换不同的关键字后重试',
+   
   },
+  
   plugins: [
     ghPages({
       repo: 'git@github.com:anycms/dev.anycms.org.git',
