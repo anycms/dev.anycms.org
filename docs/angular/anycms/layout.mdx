@@ -1,0 +1,43 @@
+---
+title: 'AnyCms Layout 库'
+---
+可配置的 flex layout 库, 使用 ac- 做为 @anycms 组织的组件前缀命名.
+
+## 安装
+```
+pnpm i @anycms/layout
+```
+
+## 导入
+```
+import { AnyCmsLayoutModule } from '@anycms/layout';
+
+```
+
+## 使用
+- View 代码
+```html
+<ac-layout [config]="config">
+    <div *element>1</div>
+    <div *element>2</div>
+    <div *element>3</div>
+    <div *element>4</div>
+</ac-layout>
+```
+- Component 代码
+```ts
+config!: LayoutConfig;
+config = layoutBuilder("column")
+        .justify("space-between")
+            .align("center")
+            .row()
+            .align("start")
+            .count(2)
+            .flex(1,2)
+            .row()
+            .count(2)
+            .flex(10,1)
+            .root()
+            .flex(1,2)
+            .build();
+```

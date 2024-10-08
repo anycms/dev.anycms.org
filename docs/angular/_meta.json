@@ -1,0 +1,12 @@
+[
+    {
+       "type":"dir",
+       "name":"anycms",
+       "label":"基础包[@anycms]"
+    },
+    {
+        "type":"dir",
+        "name":"anycms-ee",
+        "label":"企业扩展包[@anycms-ee]"
+    }
+]

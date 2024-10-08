@@ -15,6 +15,9 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', mode: 'link', content: 'https://github.com/anycms/dev.anycms.org' },
     ],
+    footer:{
+      message:'&copy; 2024 Powered by <a href="https://anycms.org" target="_blank">AnyCMS.</a>',
+    }
   },
   plugins: [
     ghPages({

@@ -1,16 +1,33 @@
 [
   {
-    "text": "Guide",
-    "link": "/guide/",
-    "activeMatch": "/guide/"
+    "text": "CodeX",
+    "link": "/codex/",
+    "activeMatch": "/codex/"
   },
   {
-    "text": "Hello World",
-    "link": "/hello/",
-    "activeMatch": "/hello/"
+    "text": "Java",
+    "link": "/java/",
+    "activeMatch": "/java/"
   },
   {
-    "text": "API",
-    "link": "https://rspress.dev/api/index.html"
+    "text": "Angular",
+   
+    "items":[
+      {
+        "text":"@anycms/core",
+        "link":"/angular/anycms/core.html",
+        "activeMatch":"/angular/anycms/core"
+      },
+      {
+        "text":"@anycms/layout",
+        "link":"/angular/anycms/layout.html",
+        "activeMatch":"/angular/anycms/layout"
+      }
+    ]
+  },
+  {
+    "text": "Rust",
+    "link": "/rust/",
+    "activeMatch": "/rust/"
   }
 ]

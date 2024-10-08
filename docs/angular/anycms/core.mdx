@@ -1,0 +1,29 @@
+---
+
+title: "Core 基础包"
+
+---
+> 基础功能包
+
+## 安装
+
+```bash
+pnpm install @anycms/core
+```
+
+## 使用
+- 导入
+```
+import { SERVER_URL } from '@anycms/core';
+
+```
+- 在 module 中设置 providers
+```
+providers:[
+    
+    {
+          provide: SERVER_URL,
+          useValue: environment.server
+    }
+]
+```
